@@ -8,6 +8,7 @@ public class PillRemainderApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PillRemainderApplication.class, args);
+		System.out.println("Hello World");
 	}
 
 }

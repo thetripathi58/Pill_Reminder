@@ -12,7 +12,7 @@ public class Dependent {
 		 private String Relationship;
 		 private String Dependent_Name;
 		 private String Dependent_Email;
-		 private int Dependent_Contact;
+		 private String Dependent_Contact;
 		 private String Dependent_Blood_Group;
 		 private Date Dependent_dob;
 		 private String Dependent_Weight;
@@ -41,10 +41,10 @@ public class Dependent {
 		public void setDependent_Email(String dependent_Email) {
 			Dependent_Email = dependent_Email;
 		}
-		public int getDependent_Contact() {
+		public String getDependent_Contact() {
 			return Dependent_Contact;
 		}
-		public void setDependent_Contact(int dependent_Contact) {
+		public void setDependent_Contact(String dependent_Contact) {
 			Dependent_Contact = dependent_Contact;
 		}
 		public String getDependent_Blood_Group() {
@@ -72,7 +72,7 @@ public class Dependent {
 			Dependent_Height = dependent_Height;
 		}
 		public Dependent(int dependent_Id, String relationship, String dependent_Name, String dependent_Email,
-				int dependent_Contact, String dependent_Blood_Group, Date dependent_dob, String dependent_Weight,
+				String dependent_Contact, String dependent_Blood_Group, Date dependent_dob, String dependent_Weight,
 				String dependent_Height) {
 			super();
 			Dependent_Id = dependent_Id;

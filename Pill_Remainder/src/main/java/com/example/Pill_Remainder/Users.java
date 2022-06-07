@@ -1,6 +1,6 @@
 package com.example.Pill_Remainder;
 
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * @author Prasanna & Chidanand
