@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <title>Register</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-laravel">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        </div>
+    </nav>
+
+    <header class="page-head" style="text-align: center;">
+        <h3>Registration</h3>
+    </header>
+    <main class="login-form">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header text-md-right">Please enter below information to register!</div>
+                        <div class="card-body">
+                            <form action="/user" method="post">
+                                <div class="form-group row">
+                                    <label for="user_name" class="col-md-4 col-form-label text-md-right">Name</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="user_name" class="form-control" name="user_name" required
+                                            autofocus>
+                                    </div>
+                                </div><br>
+                                <div class="form-group row">
+                                    <label for="Email" class="col-md-4 col-form-label text-md-right">Email</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="userid" class="form-control" name="Email" required
+                                            autofocus>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="contact_number" class="col-md-4 col-form-label text-md-right">Contact
+                                        number</label>
+                                    <div class="col-md-6">
+                                        <input type="number" id="contact_number" class="form-control"
+                                            name="contact_number" required>
+                                    </div>
+                                </div><br>
+                                <div class="form-group row">
+                                    <label for="Country" class="col-md-4 col-form-label text-md-right">Country</label>
+                                    <div class="col-md-6">
+                                        <input type="number" id="Country" class="form-control" name="Country" required>
+                                    </div>
+                                </div><br>
+                                <div class="form-group row">
+                                    <label for="Date_of_birth" class="col-md-4 col-form-label text-md-right">Date of
+                                        Birth</label>
+                                    <div class="col-md-6">
+                                        <input type="date" id="Date_of_birth" class="form-control" name="Date_of_birth"
+                                            required>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="new_password" class="col-md-4 col-form-label text-md-right">New
+                                        Password</label>
+                                    <div class="col-md-6">
+                                        <input type="password" id="new password" class="form-control"
+                                            name=" new password" required>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group row">
+                                    <label for="confirm_password" class="col-md-4 col-form-label text-md-right">Confirm
+                                        New Password</label>
+                                    <div class="col-md-6">
+                                        <input type="password" id="confirm_password" class="form-control"
+                                            name=" confirm_password" required>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="col-md-6 offset-md-4">
+                                    <button type="submit" class="btn btn-primary">
+                                        Register
+                                    </button>
+                                    <button type="reset" class="btn btn-primary">
+                                        Cancel
+                                    </button>
+                                </div>
+
+
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
